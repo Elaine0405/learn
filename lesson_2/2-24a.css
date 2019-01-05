@@ -1,0 +1,13 @@
+body {
+    background: black;
+}
+
+.box {
+    width: 600px;
+    height: 360px;
+}
+
+.box h1 {
+    color: white;
+    font-size: 60px;
+}

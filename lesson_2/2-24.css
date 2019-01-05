@@ -1,0 +1,19 @@
+   .widthbox {
+       width: 1200px;
+   }
+
+   h1.widthbox h1 {
+       color: black;
+   }
+
+   div#steve {
+       background: red;
+   }
+
+   #elaine {
+       background: pink;
+   }
+
+   #janet {
+       background: blue;
+   }
