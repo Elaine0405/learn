@@ -1,4 +1,4 @@
-   .widthbox {
+   /*.widthbox {
        width: 1200px;
    }
 
@@ -16,4 +16,8 @@
 
    #janet {
        background: blue;
+   }*/
+   body{
+    
+    background-color: black;
    }

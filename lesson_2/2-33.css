@@ -1,0 +1,70 @@
+th {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+td {
+    text-align: center;
+}
+
+tr td:nth-child(1),
+tr td:nth-child(2) {
+    border: solid 1px #000000;
+}
+
+tr td:nth-child(4),
+tr td:nth-child(5) {
+    background-color: grey;
+}
+
+.black {
+    background-color: black;
+}
+
+.silver {
+    background-color: silver;
+}
+
+.gray {
+    background-color: gray;
+}
+.white{
+    background-color: white;
+
+}
+.maroon{
+    background-color: maroon;
+}
+.red{
+    background-color: red;
+}
+.purple{
+    background-color: purple;
+}
+.fuchsia{
+    background-color: fuchsia;
+}
+.green{
+    background-color: green;
+}
+.lime{
+    background-color: lime;
+}
+.olive{
+    background-color: olive;
+}
+.yellow{
+    background-color: yellow;
+}
+.navy{
+    background-color: navy;
+}
+.blue{
+    background-color:blue;
+}
+.teal{
+    background-color:teal;
+}
+.aqua{
+    background-color:aqua;
+   }
