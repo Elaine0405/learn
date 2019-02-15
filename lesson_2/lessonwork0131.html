@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <style type="text/css">
+    body {
+        margin: 0;
+    }
+
+    .parent {
+        width: 100vw;
+        height: 100vh;
+        background-color: gray;
+        display:flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items:center;
+
+    }
+
+    .child {
+        width: 100px;
+        height: 100px;
+    }
+
+    #black {
+        background-color: black;
+    }
+
+    #red {
+        background-color: red;
+    }
+
+    #blue {
+        background-color: blue;
+    }
+    </style>
+
+<body>
+    <div class="parent">
+        <div class="child" id="black"></div>
+        <div class="child" id="red"></div>
+        <div class="child" id="blue"></div>
+    </div>
+</body>
+
+</html>
