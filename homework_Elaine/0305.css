@@ -1,0 +1,28 @@
+body {
+        margin: 0
+    }
+
+    .green {
+        background-image: url("../lesson_2/images/frog-green.svg");
+        background-color: green;
+        background-repeat: no-repeat;
+    }
+
+
+    .child{
+        width: 20vw;
+        height: 20vw;
+    }
+
+    #pond {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content:flex-end;
+    }
+ 
+
+
+
+   
+        

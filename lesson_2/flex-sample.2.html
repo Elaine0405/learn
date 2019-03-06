@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>flex-sample</title>
+    <style type="text/css">
+    body {
+        margin: 0;
+
+    }
+
+    .box-space {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .box-r {
+        background-image: url("images/frog-red.svg");
+    }
+
+    .box-g {
+        background-image: url("images/frog-green.svg");
+    }
+
+    .box-y {
+        background-image: url("images/frog-yellow.svg");
+        align-self: flex-end;
+    }
+
+    .box {
+        width: 20vw;
+        height: 20vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="box-space">
+        <div class="box box-r"></div>
+        <div class="box box-y"></div>
+        <div class="box box-g"></div>
+    </div>
+</body>
+
+</html>
