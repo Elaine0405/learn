@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>0219青蛙1</title>
+    <style type="text/css">
+    body {
+        margin: 0
+    }
+
+    .green {
+        background-color: green;
+    }
+
+    .red {
+        background-color: red;
+    }
+
+    .yellow {
+        background-color: yellow;
+    }
+
+    .child{
+        width: 20vw;
+        height: 20vw;
+    }
+
+    #pond {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content:flex-end;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="pond">
+        <div class="child green"></div>
+    </div>
+</body>
+
+</html>
+    }

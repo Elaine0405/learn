@@ -1,28 +1,211 @@
 body {
-        margin: 0
-    }
+    margin: 0
+}
 
-    .green {
-        background-image: url("../lesson_2/images/frog-green.svg");
-        background-color: green;
-        background-repeat: no-repeat;
-    }
+.green {
+    background-image: url("../lesson_2/images/frog-green.svg");
+    background-repeat: no-repeat;
 
+}
 
-    .child{
-        width: 20vw;
-        height: 20vw;
-    }
+.yellow {
+    background-image: url("../lesson_2/images/frog-yellow.svg");
+    background-repeat: no-repeat;
+}
 
-    #pond {
+.red {
+    background-image: url("../lesson_2/images/frog-red.svg");
+    background-repeat: no-repeat;
+}
+
+.child {
+    width: 20vw;
+    height: 20vw;
+}
+
+#q1 {
+    background-image: url("../lesson_2/images/frog-yellow.svg");
+    background-repeat: no-repeat;
+    order: 1;
+    align-self: flex-end;
+}
+
+#p1 {
+    background-image: url("../lesson_2/images/frog-yellow.svg");
+    background-repeat: no-repeat;
+    align-self: flex-end;
+}
+
+#pond {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#b {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#c {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+#d {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#e {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+#f {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#g {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#h {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#i {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#j {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+#k {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#l {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+#m {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#n {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+
+#o {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#p {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#q {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+  #r {
         width: 100vw;
         height: 100vh;
         display: flex;
-        justify-content:flex-end;
+         flex-wrap:wrap;
+}
+    #s {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+ }
+ #t {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-flow: column wrap;
     }
- 
+ #u {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-content:flex-start
+    }
+     #v {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-content:flex-end;
+    }
+     #w {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-content: center;
+    }
+     #x {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-flow: column-reverse wrap-reverse;
+        align-content: space-between;
+        justify-content: center;
 
-
-
-   
-        
+    }
