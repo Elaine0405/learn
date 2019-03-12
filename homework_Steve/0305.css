@@ -1,0 +1,172 @@
+/*共通 style ==========================================================*/
+body {
+    margin: 0
+}
+
+.pond {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.green {
+    background-image: url("../lesson_2/images/frog-green.svg");
+    background-repeat: no-repeat;
+
+}
+
+.yellow {
+    background-image: url("../lesson_2/images/frog-yellow.svg");
+    background-repeat: no-repeat;
+}
+
+.red {
+    background-image: url("../lesson_2/images/frog-red.svg");
+    background-repeat: no-repeat;
+}
+
+.child {
+    box-sizing: border-box;
+    margin: 1vh 1vw;
+    width: 18vw;
+    height: 18vh;
+    background-position: center;
+    background-size: contain;
+}
+
+/*非共通 style ======================================================*/
+/*0219-1.html*/
+.hk_1_pond {
+    justify-content: flex-end;
+}
+
+/*0219-2.html*/
+.hk_2_pond {
+    justify-content: center;
+}
+
+/*0219-3.html*/
+.hk_3_pond {
+    justify-content: space-around;
+}
+
+/*0219-4.html*/
+.hk_4_pond {
+    justify-content: space-between;
+}
+
+/*0219-5.html*/
+.hk_5_pond {
+    align-items:flex-end;
+}
+
+/*0219-6.html*/
+.hk_6_pond {
+    justify-content: center;
+    align-items: center;
+}
+
+/*0219-7.html*/
+.hk_7_pond {
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/*0219-8.html*/
+.hk_8_pond {
+    justify-content: flex-start;
+    flex-direction:row-reverse;
+}
+
+/*0219-9.html*/
+.hk_9_pond {
+    flex-direction:column;
+}
+
+/*0219-10.html*/
+.hk_10_pond {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+/*0219-11.html*/
+.hk_11_pond {
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/*0219-12.html*/
+.hk_12_pond {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+/*0219-13.html*/
+.hk_13_pond {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/*0219-14.html*/
+.hk_14_yellow{
+    order:1;
+}
+
+/*0219-15.html*/
+.hk_15_red{
+    order:-1;
+}
+
+/*0219-16.html*/
+.hk_16_yellow{
+    align-self: flex-end;
+}
+
+/*0219-17.html*/
+.hk_17_yellow{
+    order: 1;
+    align-self: flex-end;
+}
+
+/*0219-18.html*/
+.hk_18_pond {
+    flex-wrap:wrap;
+}
+
+/*0219-19.html*/
+.hk_19_pond {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/*0219-20.html*/
+.hk_20_pond {
+    flex-flow: column wrap;
+}
+
+/*0219-21.html*/
+.hk_21_pond {
+    flex-wrap: wrap;
+    align-content:flex-start;
+}
+
+/*0219-22.html*/
+.hk_22_pond {
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+/*0219-23.html*/
+.hk_23_pond {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+}
+
+/*0219-24.html*/
+.hk_24_pond {
+    flex-flow: column-reverse wrap-reverse;
+    align-content: space-between;
+    justify-content: center;
+}
