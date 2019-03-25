@@ -1,3 +1,4 @@
+/*共通 style ==========================================================*/
 body {
     margin: 0
 }
@@ -19,193 +20,155 @@ body {
 }
 
 .child {
-    width: 20vw;
-    height: 20vw;
+
+    margin: 1vh 1vw;
+    width: 18vw;
+    height: 18vh;
+    background-position: center;
+    background-size: contain;
 }
 
-#q1 {
-    background-image: url("../lesson_2/images/frog-yellow.svg");
-    background-repeat: no-repeat;
-    order: 1;
-    align-self: flex-end;
-}
 
-#p1 {
-    background-image: url("../lesson_2/images/frog-yellow.svg");
-    background-repeat: no-repeat;
-    align-self: flex-end;
-}
 
-#pond {
+.pond {
     width: 100vw;
     height: 100vh;
     display: flex;
+    
+}
+/*非共通 style ======================================================*/
+/*0219-1.html*/
+.a {
     justify-content: flex-end;
 }
 
-#b {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+/*0219-2.html*/
+.b {
     justify-content: center;
 }
 
-#c {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+/*0219-3.html*/
+.c {
     justify-content: space-around;
 }
 
-#d {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+/*0219-4.html*/
+.d {
     justify-content: space-between;
 }
 
-#e {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: flex-end;
+/*0219-5.html*/
+.e {
+    align-items:flex-end;
 }
 
-#f {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+/*0219-6.html*/
+.f {
     justify-content: center;
     align-items: center;
 }
 
-#g {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+/*0219-7.html*/
+.g {
     justify-content: space-around;
     align-items: flex-end;
 }
 
-#h {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row-reverse;
+/*0219-8.html*/
+.h {
+    justify-content: flex-start;
+    flex-direction:row-reverse;
 }
 
-#i {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+/*0219-9.html*/
+.i {
+    flex-direction:column;
 }
 
-#j {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+/*0219-10.html*/
+.j {
     flex-direction: row-reverse;
     justify-content: flex-end;
 }
 
-#k {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+/*0219-11.html*/
+.k {
     flex-direction: column;
     justify-content: flex-end;
 }
 
-#l {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+/*0219-12.html*/
+.l{
     flex-direction: column-reverse;
     justify-content: space-between;
 }
 
-#m {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+/*0219-13.html*/
+.m {
     flex-direction: row-reverse;
     justify-content: center;
     align-items: flex-end;
 }
 
-#n {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-
+/*0219-14.html*/
+.n{
+    order:1;
 }
 
-#o {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+/*0219-15.html*/
+.o{
+    order:-1;
 }
 
-#p {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+/*0219-16.html*/
+.p{
+    align-self: flex-end;
 }
 
-#q {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-
+/*0219-17.html*/
+.q{
+    order: 1;
+    align-self: flex-end;
 }
-  #r {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-         flex-wrap:wrap;
-}
-    #s {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
- }
- #t {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        flex-flow: column wrap;
-    }
- #u {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        flex-wrap: wrap;
-        align-content:flex-start
-    }
-     #v {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        flex-wrap: wrap;
-        align-content:flex-end;
-    }
-     #w {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-        align-content: center;
-    }
-     #x {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        flex-flow: column-reverse wrap-reverse;
-        align-content: space-between;
-        justify-content: center;
 
-    }
+/*0219-18.html*/
+.r {
+    flex-wrap:wrap;
+}
+
+/*0219-19.html*/
+.s {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/*0219-20.html*/
+.t {
+    flex-flow: column wrap;
+}
+
+/*0219-21.html*/
+.u {
+    flex-wrap: wrap;
+    align-content:flex-start;
+}
+
+/*0219-22.html*/
+.v {
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+/*0219-23.html*/
+.w {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+}
+
+/*0219-24.html*/
+.x {
+    flex-flow: column-reverse wrap-reverse;
+    align-content: space-between;
+    justify-content: center;
+}
