@@ -1,0 +1,169 @@
+body {
+    margin: 0
+}
+
+.pond {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.child {
+    background-position: center;
+    background-size: contain;
+}
+
+.green {
+
+    background-image: url("../lesson_2/images/frog-green.svg");
+    background-repeat: no-repeat;
+
+}
+
+.yellow {
+    background-image: url("../lesson_2/images/frog-yellow.svg");
+    background-repeat: no-repeat;
+}
+
+.red {
+    background-image: url("../lesson_2/images/frog-red.svg");
+    background-repeat: no-repeat;
+}
+
+.child {
+    margin: 1vh 1vw;
+    width: 18vw;
+    height: 18vh;
+    background-position: center;
+    background-size: contain;
+}
+
+.hk_1_pond {
+    justify-content: flex-end;
+}
+
+
+.hk_2_pond {
+    justify-content: center;
+}
+
+
+.hk_3_pond {
+    justify-content: space-around;
+}
+
+
+.hk_4_pond {
+    justify-content: space-between;
+}
+
+.hk_5_pond {
+    align-items: flex-end;
+}
+
+
+.hk_6_pond {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hk_7_pond {
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+.hk_8_pond {
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+
+.hk_9_pond {
+    flex-direction: column;
+}
+
+.hk_10_pond {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.hk_11_pond {
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+.hk_12_pond {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+
+.hk_13_pond {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.hk_14_yellow {
+    order: 1;
+}
+
+
+.hk_15_red {
+    order: -1;
+}
+
+.hk_16_yellow {
+    align-self: flex-end;
+}
+
+
+.hk_17_yellow {
+    order: 1;
+    align-self: flex-end;
+}
+
+.hk_18_pond {
+    flex-wrap: wrap;
+}
+
+
+.hk_19_pond {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.hk_20_pond {
+    flex-flow: column wrap;
+}
+
+
+.hk_21_pond {
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+
+.hk_22_pond {
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+
+.hk_23_pond {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+}
+
+
+.hk_24_pond {
+    flex-flow: column-reverse wrap-reverse;
+    align-content: space-between;
+    justify-content: center;
+}
