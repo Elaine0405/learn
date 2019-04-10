@@ -1,0 +1,46 @@
+ body {
+        margin: 0;
+
+    }
+
+    .box-space {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .frog {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+    }
+
+
+    .box {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+
+
+    }
+
+    .box-r {
+        width: 60vw;
+        height: 60vh;
+        background-image: url("../lesson_2/images/frog-red.svg");
+    }    
+    .box-g {
+        width: 40vw;
+        height: 40vh;
+        background-image: url("../lesson_2/images/frog-green.svg");
+    }
+
+    .box-y {
+        width: 20vw;
+        height: 20vh;
+        background-image: url("../lesson_2/images/frog-yellow.svg");
+    }
+
